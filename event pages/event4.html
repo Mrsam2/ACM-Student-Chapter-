@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Stack Web Development Workshop - SVPCET ACM Student Chapter</title>
+    <meta name="description" content="Comprehensive workshop covering modern web development technologies including React, Node.js, and database integration">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-scrolled" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <img src="images/svpcet-acm-logo.png" alt="ACM SVPCET Logo" style="width: 40px; height: 40px; object-fit: contain;">
+                </div>
+                <div class="brand-text">
+                    <h1>ACM SVPCET</h1>
+                    <p>Student Chapter</p>
+                </div>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="../index.html#about" class="nav-link">About</a>
+                <a href="../index.html#domains" class="nav-link">Domains</a>
+                <a href="../events.html" class="nav-link">Events</a>
+                <a href="../team.html" class="nav-link">Team</a>
+                <a href="../contact.html" class="nav-link">Contact</a>
+                <button class="btn btn-primary">Join Us</button>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Event Hero -->
+    <section class="event-hero">
+        <div class="container">
+            <div class="event-hero-content">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <a href="events.html">Events</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Web Development Workshop</span>
+                </div>
+                <div class="event-status-badge upcoming">
+                    <i class="fas fa-calendar-plus"></i>
+                    Upcoming Event
+                </div>
+                <h1>Full-Stack Web Development Workshop</h1>
+                <p class="event-subtitle">Comprehensive workshop covering modern web development technologies including React, Node.js, and database integration</p>
+                
+                <div class="event-meta-info">
+                    <div class="meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <strong>Date</strong>
+                            <span>March 5, 2025</span>
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Time</strong>
+                            <span>9:00 AM - 4:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Venue</strong>
+                            <span>Computer Lab 1 & 2</span>
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <strong>Capacity</strong>
+                            <span>60 Participants</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-actions">
+                    <button class="btn btn-primary btn-large">
+                        <i class="fas fa-user-plus"></i>
+                        Register Now
+                    </button>
+                    <button class="btn btn-outline btn-large">
+                        <i class="fas fa-download"></i>
+                        Download Syllabus
+                    </button>
+                </div>
+            </div>
+            <div class="event-hero-image">
+                <img src="/placeholder.svg?height=400&width=600&text=Web+Development+Workshop" alt="Web Development Workshop">
+                <div class="image-overlay">
+                    <div class="play-button">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details -->
+    <section class="event-details">
+        <div class="container">
+            <div class="event-content">
+                <div class="event-main">
+                    <div class="section">
+                        <h2>About the Workshop</h2>
+                        <p>Join us for an intensive full-stack web development workshop that will take you from the basics of web development to building complete, modern web applications. This hands-on workshop is designed for both beginners and intermediate developers who want to learn the latest web technologies and best practices.</p>
+                        
+                        <p>Over the course of 7 hours, you'll learn to build a complete web application from scratch, covering both frontend and backend development, database integration, and deployment strategies. By the end of this workshop, you'll have the skills to create your own full-stack web applications.</p>
+                    </div>
+
+                    <div class="section">
+                        <h2>What You'll Learn</h2>
+                        <div class="highlights-grid">
+                            <div class="highlight-item">
+                                <div class="highlight-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h4>Frontend Fundamentals</h4>
+                                    <p>Master HTML5, CSS3, and JavaScript to create responsive and interactive user interfaces</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h4>React.js Development</h4>
+                                    <p>Build dynamic user interfaces using React components, hooks, and state management</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h4>Backend with Node.js</h4>
+                                    <p>Create robust server-side applications using Node.js and Express.js framework</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h4>Database Integration</h4>
+                                    <p>Learn to work with MongoDB for data storage and retrieval in your applications</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2>Workshop Curriculum</h2>
+                        <div class="curriculum-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-time">9:00 - 10:30 AM</div>
+                                <div class="timeline-content">
+                                    <h4>Session 1: Frontend Fundamentals</h4>
+                                    <ul>
+                                        <li>HTML5 semantic elements and structure</li>
+                                        <li>CSS3 styling, flexbox, and grid layouts</li>
+                                        <li>JavaScript ES6+ features and DOM manipulation</li>
+                                        <li>Responsive design principles</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-time">10:45 - 12:15 PM</div>
+                                <div class="timeline-content">
+                                    <h4>Session 2: React.js Fundamentals</h4>
+                                    <ul>
+                                        <li>Introduction to React and JSX</li>
+                                        <li>Components, props, and state</li>
+                                        <li>Event handling and conditional rendering</li>
+                                        <li>React hooks (useState, useEffect)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-time">1:15 - 2:45 PM</div>
+                                <div class="timeline-content">
+                                    <h4>Session 3: Backend Development</h4>
+                                    <ul>
+                                        <li>Node.js runtime and npm packages</li>
+                                        <li>Express.js server setup and routing</li>
+                                        <li>Middleware and error handling</li>
+                                        <li>RESTful API design principles</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-time">3:00 - 4:00 PM</div>
+                                <div class="timeline-content">
+                                    <h4>Session 4: Database & Integration</h4>
+                                    <ul>
+                                        <li>MongoDB setup and basic operations</li>
+                                        <li>Connecting React frontend with Node.js backend</li>
+                                        <li>CRUD operations and data flow</li>
+                                        <li>Deployment basics and best practices</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2>Prerequisites & Requirements</h2>
+                        <div class="requirements-grid">
+                            <div class="requirement-card">
+                                <h4><i class="fas fa-laptop"></i> Technical Requirements</h4>
+                                <ul>
+                                    <li>Laptop with Windows/Mac/Linux</li>
+                                    <li>At least 4GB RAM and 10GB free space</li>
+                                    <li>Stable internet connection</li>
+                                    <li>Code editor (VS Code recommended)</li>
+                                </ul>
+                            </div>
+                            <div class="requirement-card">
+                                <h4><i class="fas fa-brain"></i> Knowledge Prerequisites</h4>
+                                <ul>
+                                    <li>Basic programming knowledge</li>
+                                    <li>Familiarity with any programming language</li>
+                                    <li>Understanding of basic computer concepts</li>
+                                    <li>No prior web development experience required</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2>What's Included</h2>
+                        <div class="included-items">
+                            <div class="included-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Comprehensive workshop materials and code samples</span>
+                            </div>
+                            <div class="included-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Hands-on project to build during the workshop</span>
+                            </div>
+                            <div class="included-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Certificate of completion</span>
+                            </div>
+                            <div class="included-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Access to workshop recordings for 30 days</span>
+                            </div>
+                            <div class="included-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Lunch and refreshments</span>
+                            </div>
+                            <div class="included-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Networking opportunities with peers and instructors</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-sidebar">
+                    <div class="sidebar-card">
+                        <h3>Workshop Instructors</h3>
+                        <div class="speakers-list">
+                            <div class="speaker">
+                                <div class="speaker-avatar">
+                                    <img src="/placeholder.svg?height=60&width=60&text=AS" alt="Arjun Singh">
+                                </div>
+                                <div class="speaker-info">
+                                    <h4>Arjun Singh</h4>
+                                    <p>Full-Stack Developer, TCS</p>
+                                    <span class="speaker-expertise">React & Node.js Expert</span>
+                                </div>
+                            </div>
+                            <div class="speaker">
+                                <div class="speaker-avatar">
+                                    <img src="/placeholder.svg?height=60&width=60&text=NK" alt="Neha Kapoor">
+                                </div>
+                                <div class="speaker-info">
+                                    <h4>Neha Kapoor</h4>
+                                    <p>Frontend Developer, Infosys</p>
+                                    <span class="speaker-expertise">UI/UX & React Specialist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Registration Details</h3>
+                        <div class="registration-details">
+                            <div class="detail-item">
+                                <strong>Registration Fee:</strong>
+                                <span>₹500 (₹300 for ACM members)</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Early Bird:</strong>
+                                <span>₹400 (Register before Feb 25)</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Group Discount:</strong>
+                                <span>10% off for groups of 5+</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Registration Deadline:</strong>
+                                <span>March 1, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Technologies Covered</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">REST APIs</span>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Contact Information</h3>
+                        <div class="contact-details">
+                            <p><strong>Workshop Coordinator:</strong></p>
+                            <p>Vikash Sharma</p>
+                            <p><i class="fas fa-phone"></i> +91 87654 32109</p>
+                            <p><i class="fas fa-envelope"></i> workshops@acmsvpcet.org</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="brand-icon">
+                            <img src="images/svpcet-acm-logo.png" alt="ACM SVPCET Logo" style="width: 40px; height: 40px; object-fit: contain;">
+                        </div>
+                        <div class="brand-text">
+                            <h3>ACM SVPCET</h3>
+                            <p>Student Chapter</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Empowering future tech leaders through innovation, collaboration, and excellence.
+                    </p>
+                    <button class="btn btn-primary">Join Us Today</button>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#domains">Domains</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Domains</h4>
+                    <ul class="footer-links">
+                        <li>Technical</li>
+                        <li>Competitive Programming</li>
+                        <li>Web Development</li>
+                        <li>Management</li>
+                        <li>Creative</li>
+                        <li>Publicity</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>SVPCET, Gavasi Manapur, Wardha Road, Nagpur - 441108</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>acm@svpcet.ac.in</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+91 712 123 4567</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SVPCET ACM Student Chapter. All Rights Reserved. | Designed with ❤️ by ACM Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

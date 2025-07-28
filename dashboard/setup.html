@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup Admin Account - ACM SVPCET</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-header">
+                <div class="brand-logo">
+                    <img src="../images/svpcet-acm-logo.png" alt="ACM SVPCET Logo">
+                </div>
+                <h1>Setup Admin Account</h1>
+                <p>Create your admin account to manage the ACM website</p>
+            </div>
+            
+            <form class="login-form" id="setupForm">
+                <div class="form-group">
+                    <label for="adminEmail">Admin Email</label>
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="adminEmail" name="adminEmail" required placeholder="admin@svpcet.ac.in">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="adminPassword">Password</label>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="adminPassword" name="adminPassword" required placeholder="Create a strong password">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm your password">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="adminName">Full Name</label>
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="adminName" name="adminName" required placeholder="Your full name">
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-login" id="setupBtn">
+                    <span class="btn-text">Create Admin Account</span>
+                    <div class="btn-loader hidden">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>
+                </button>
+            </form>
+            
+            <div class="login-footer">
+                <p>&copy; 2025 ACM SVPCET Student Chapter. All rights reserved.</p>
+            </div>
+        </div>
+        
+        <div class="login-bg">
+            <div class="bg-pattern"></div>
+        </div>
+    </div>
+    
+    <script type="module" src="js/setup.js"></script>
+</body>
+</html>
