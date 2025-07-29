@@ -1,5 +1,3 @@
-Absolutely! Here’s a revised, more **clear and attractive** README text for your GitHub repository. This also includes some formatting and visual enhancements using Markdown, which is supported by GitHub.
-
 # 🚀 ACM College Website
 
 **Welcome to the official ACM College Website Project!**  
